@@ -1,0 +1,13 @@
+/* Playful and Childlike:
+Font 1 (Heading): Chewy
+Font 2 (Subheading): Baloo 2
+Font 3 (Body): Nunito
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Baloo+2&family=Nunito&display=swap');
+
+:root {
+    --font-heading: 'Chewy', sans-serif;
+    --font-subheading: 'Baloo 2', sans-serif;
+    --font-body: 'Nunito', sans-serif;
+}

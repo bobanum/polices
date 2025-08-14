@@ -1,0 +1,13 @@
+/* Graffiti Urban:
+Font 1 (Heading): Wallpoet
+Font 2 (Subheading): Rock Salt
+Font 3 (Body): Changa
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&family=Rock+Salt&family=Changa&display=swap');
+
+:root {
+    --font-heading: 'Wallpoet', cursive;
+    --font-subheading: 'Rock Salt', cursive;
+    --font-body: 'Changa', sans-serif;
+}

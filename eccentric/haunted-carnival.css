@@ -1,0 +1,13 @@
+/* Haunted Carnival:
+Font 1 (Heading): Eater
+Font 2 (Subheading): Rye
+Font 3 (Body): Special Elite
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Rye&family=Special+Elite&display=swap');
+
+:root {
+    --font-heading: 'Eater', cursive;
+    --font-subheading: 'Rye', cursive;
+    --font-body: 'Special Elite', sans-serif;
+}

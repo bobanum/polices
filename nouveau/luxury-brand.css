@@ -1,0 +1,13 @@
+/* Luxury Brand:
+Font 1 (Heading): Cormorant Garamond
+Font 2 (Subheading): Playfair Display SC
+Font 3 (Body): Lato
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display+SC&family=Lato&display=swap');
+
+:root {
+    --font-heading: 'Cormorant Garamond', sans-serif;
+    --font-subheading: 'Playfair Display SC', sans-serif;
+    --font-body: 'Lato', sans-serif;
+}

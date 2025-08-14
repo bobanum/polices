@@ -1,0 +1,13 @@
+/* Minimal Serif:
+Font 1 (Heading): DM Serif Display
+Font 2 (Subheading): Prata
+Font 3 (Body): Spectral
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Prata&family=Spectral&display=swap');
+
+:root {
+    --font-heading: 'DM Serif Display', sans-serif;
+    --font-subheading: 'Prata', sans-serif;
+    --font-body: 'Spectral', sans-serif;
+}

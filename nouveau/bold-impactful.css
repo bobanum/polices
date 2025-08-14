@@ -1,0 +1,13 @@
+/* Bold and Impactful:
+Font 1 (Heading): Bebas Neue
+Font 2 (Subheading): Oswald
+Font 3 (Body): Roboto Condensed
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Roboto+Condensed&display=swap');
+
+:root {
+    --font-heading: 'Bebas Neue', sans-serif;
+    --font-subheading: 'Oswald', sans-serif;
+    --font-body: 'Roboto Condensed', sans-serif;
+}

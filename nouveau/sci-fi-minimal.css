@@ -1,0 +1,13 @@
+/* Sci-Fi Minimal:
+Font 1 (Heading): Exo 2
+Font 2 (Subheading): Titillium Web
+Font 3 (Body): Source Code Pro
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Titillium+Web&family=Source+Code+Pro&display=swap');
+
+:root {
+    --font-heading: 'Exo 2', sans-serif;
+    --font-subheading: 'Titillium Web', sans-serif;
+    --font-body: 'Source Code Pro', sans-serif;
+}

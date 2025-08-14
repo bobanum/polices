@@ -1,0 +1,15 @@
+/* Psychedelic Pop:
+Font 1 (Heading): Rubik Glitch
+Font 2 (Subheading): Permanent Marker
+Font 3 (Body): Comfortaa
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Permanent+Marker&family=Comfortaa&display=swap');
+
+:root {
+    --font-heading: 'Rubik Glitch', cursive;
+    --font-subheading: 'Permanent Marker', cursive;
+    --font-body: 'Comfortaa', sans-serif;
+}
+/* "Artistic and Handcrafted": "#artistic-handcrafted{--font-heading 'Poiret One', cursive;--font-subheading;'Indie Flower', cursive;--font-body;'Dancing Script', cursive}", */
+/* "Psychedelic Pop": "#psychedelic-pop{--font-heading 'Rubik Glitch', cursive;--font-subheading:'Permanent Marker', cursive;--font-body:'Comfortaa', sans-serif}", */

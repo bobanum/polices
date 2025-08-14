@@ -1,0 +1,13 @@
+/* Vintage Script:
+Font 1 (Heading): Great Vibes
+Font 2 (Subheading): Sacramento
+Font 3 (Body): Merriweather
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&family=Merriweather&display=swap');
+
+:root {
+    --font-heading: 'Great Vibes', sans-serif;
+    --font-subheading: 'Sacramento', sans-serif;
+    --font-body: 'Merriweather', sans-serif;
+}

@@ -1,0 +1,13 @@
+/* Surreal Dream:
+Font 1 (Heading): Sofia
+Font 2 (Subheading): Marck Script
+Font 3 (Body): Quicksand
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Marck+Script&family=Quicksand&display=swap');
+
+:root {
+    --font-heading: 'Sofia', cursive;
+    --font-subheading: 'Marck Script', cursive;
+    --font-body: 'Quicksand', sans-serif;
+}

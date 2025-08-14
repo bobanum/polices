@@ -1,0 +1,13 @@
+/* Wavy Groovy:
+Font 1 (Heading): Faster One
+Font 2 (Subheading): Righteous
+Font 3 (Body): Maven Pro
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Righteous&family=Maven+Pro&display=swap');
+
+:root {
+    --font-heading: 'Faster One', cursive;
+    --font-subheading: 'Righteous', cursive;
+    --font-body: 'Maven Pro', sans-serif;
+}

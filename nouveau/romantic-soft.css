@@ -1,0 +1,13 @@
+/* Romantic and Soft:
+Font 1 (Heading): Parisienne
+Font 2 (Subheading): Amatic SC
+Font 3 (Body): Josefin Sans
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Amatic+SC:wght@700&family=Josefin+Sans&display=swap');
+
+:root {
+    --font-heading: 'Parisienne', sans-serif;
+    --font-subheading: 'Amatic SC', sans-serif;
+    --font-body: 'Josefin Sans', sans-serif;
+}

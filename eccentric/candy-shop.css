@@ -1,0 +1,13 @@
+/* Candy Shop:
+Font 1 (Heading): Cherry Cream Soda
+Font 2 (Subheading): Cookie
+Font 3 (Body): Comfortaa
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Cookie&family=Comfortaa&display=swap');
+
+:root {
+    --font-heading: 'Cherry Cream Soda', cursive;
+    --font-subheading: 'Cookie', cursive;
+    --font-body: 'Comfortaa', sans-serif;
+}

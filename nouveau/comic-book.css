@@ -1,0 +1,13 @@
+/* Comic Book:
+Font 1 (Heading): Bangers
+Font 2 (Subheading): Luckiest Guy
+Font 3 (Body): Cabin
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Luckiest+Guy&family=Cabin&display=swap');
+
+:root {
+    --font-heading: 'Bangers', sans-serif;
+    --font-subheading: 'Luckiest Guy', sans-serif;
+    --font-body: 'Cabin', sans-serif;
+}

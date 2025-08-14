@@ -1,0 +1,13 @@
+/* Spooky Playful:
+Font 1 (Heading): Nosifer
+Font 2 (Subheading): Creepster
+Font 3 (Body): Baloo 2
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Creepster&family=Baloo+2&display=swap');
+
+:root {
+    --font-heading: 'Nosifer', cursive;
+    --font-subheading: 'Creepster', cursive;
+    --font-body: 'Baloo 2', sans-serif;
+}

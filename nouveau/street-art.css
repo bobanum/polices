@@ -1,0 +1,13 @@
+/* Street Art Style:
+Font 1 (Heading): Fredericka the Great
+Font 2 (Subheading): Rock Salt
+Font 3 (Body): PT Sans
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rock+Salt&family=PT+Sans&display=swap');
+
+:root {
+    --font-heading: 'Fredericka the Great', sans-serif;
+    --font-subheading: 'Rock Salt', sans-serif;
+    --font-body: 'PT Sans', sans-serif;
+}

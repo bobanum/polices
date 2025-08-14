@@ -1,0 +1,13 @@
+/* Alien Transmission:
+Font 1 (Heading): Codystar
+Font 2 (Subheading): Orbitron
+Font 3 (Body): Saira Semi Condensed
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Orbitron&family=Saira+Semi+Condensed&display=swap');
+
+:root {
+    --font-heading: 'Codystar', cursive;
+    --font-subheading: 'Orbitron', cursive;
+    --font-body: 'Saira Semi Condensed', sans-serif;
+}

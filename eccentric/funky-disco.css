@@ -1,0 +1,13 @@
+/* Funky Disco:
+Font 1 (Heading): Slackey
+Font 2 (Subheading): Bubblegum Sans
+Font 3 (Body): Cabin Sketch
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Slackey&family=Bubblegum+Sans&family=Cabin+Sketch&display=swap');
+
+:root {
+    --font-heading: 'Slackey', cursive;
+    --font-subheading: 'Bubblegum Sans', cursive;
+    --font-body: 'Cabin Sketch', sans-serif;
+}

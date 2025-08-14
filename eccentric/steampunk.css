@@ -1,0 +1,13 @@
+/* SteamPunk:
+Font 1 (Heading): Metamorphous
+Font 2 (Subheading): Almendra SC
+Font 3 (Body): Spectral SC
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Almendra+SC&family=Spectral+SC&display=swap');
+
+:root {
+    --font-heading: 'Metamorphous', cursive;
+    --font-subheading: 'Almendra SC', cursive;
+    --font-body: 'Spectral SC', sans-serif;
+}

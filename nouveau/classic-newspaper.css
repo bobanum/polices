@@ -1,0 +1,13 @@
+/* Classic Newspaper:
+Font 1 (Heading): IM Fell English SC
+Font 2 (Subheading): Vollkorn SC
+Font 3 (Body): Merriweather
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Vollkorn+SC&family=Merriweather&display=swap');
+
+:root {
+    --font-heading: 'IM Fell English SC', sans-serif;
+    --font-subheading: 'Vollkorn SC', sans-serif;
+    --font-body: 'Merriweather', sans-serif;
+}

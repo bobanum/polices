@@ -1,0 +1,13 @@
+/* Retro and Funky:
+Font 1 (Heading): Monoton
+Font 2 (Subheading): Pacifico
+Font 3 (Body): Quicksand
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Pacifico&family=Quicksand:wght@400&display=swap');
+
+:root {
+    --font-heading: 'Monoton', sans-serif;
+    --font-subheading: 'Pacifico', sans-serif;
+    --font-body: 'Quicksand', sans-serif;
+}

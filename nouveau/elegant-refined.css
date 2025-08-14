@@ -1,0 +1,13 @@
+/* Elegant and Refined:
+Font 1 (Heading): Playfair Display
+Font 2 (Subheading): Cinzel Decorative
+Font 3 (Body): Lora
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cinzel+Decorative:wght@700&family=Lora&display=swap');
+
+:root {
+    --font-heading: 'Playfair Display', sans-serif;
+    --font-subheading: 'Cinzel Decorative', sans-serif;
+    --font-body: 'Lora', sans-serif;
+}

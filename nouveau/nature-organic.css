@@ -1,0 +1,13 @@
+/* Nature and Organic:
+Font 1 (Heading): Alegreya SC
+Font 2 (Subheading): Shadows Into Light
+Font 3 (Body): Source Sans Pro
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap');
+
+:root {
+    --font-heading: 'Alegreya SC', sans-serif;
+    --font-subheading: 'Shadows Into Light', sans-serif;
+    --font-body: 'Source Sans Pro', sans-serif;
+}

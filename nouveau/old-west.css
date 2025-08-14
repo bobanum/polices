@@ -1,0 +1,13 @@
+/* Old West:
+Font 1 (Heading): Rye
+Font 2 (Subheading): Special Elite
+Font 3 (Body): Roboto Slab
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Special+Elite&family=Roboto+Slab&display=swap');
+
+:root {
+    --font-heading: 'Rye', sans-serif;
+    --font-subheading: 'Special Elite', sans-serif;
+    --font-body: 'Roboto Slab', sans-serif;
+}

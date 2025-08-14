@@ -1,0 +1,13 @@
+/* Retro Diner:
+Font 1 (Heading): Monoton
+Font 2 (Subheading): Lobster
+Font 3 (Body): Signika
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Lobster&family=Signika&display=swap');
+
+:root {
+    --font-heading: 'Monoton', cursive;
+    --font-subheading: 'Lobster', cursive;
+    --font-body: 'Signika', sans-serif;
+}

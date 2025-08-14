@@ -1,0 +1,13 @@
+/* Retro Futurism:
+Font 1 (Heading): Audiowide
+Font 2 (Subheading): Russo One
+Font 3 (Body): Exo
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Russo+One&family=Exo&display=swap');
+
+:root {
+    --font-heading: 'Audiowide', cursive;
+    --font-subheading: 'Russo One', cursive;
+    --font-body: 'Exo', sans-serif;
+}

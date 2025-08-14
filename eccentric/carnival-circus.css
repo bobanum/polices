@@ -1,0 +1,13 @@
+/* Carnival Circus:
+Font 1 (Heading): Ewert
+Font 2 (Subheading): Butcherman
+Font 3 (Body): Concert One
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Butcherman&family=Concert+One&display=swap');
+
+:root {
+    --font-heading: 'Ewert', cursive;
+    --font-subheading: 'Butcherman', cursive;
+    --font-body: 'Concert One', sans-serif;
+}

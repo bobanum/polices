@@ -1,0 +1,13 @@
+/* Fantasy Fairy Tale:
+Font 1 (Heading): Uncial Antiqua
+Font 2 (Subheading): MedievalSharp
+Font 3 (Body): EB Garamond
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=MedievalSharp&family=EB+Garamond&display=swap');
+
+:root {
+    --font-heading: 'Uncial Antiqua', cursive;
+    --font-subheading: 'MedievalSharp', cursive;
+    --font-body: 'EB Garamond', sans-serif;
+}

@@ -1,0 +1,13 @@
+/* Freak Show:
+Font 1 (Heading): Butcherman
+Font 2 (Subheading): Ewert
+Font 3 (Body): Sigmar One
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Ewert&family=Sigmar+One&display=swap');
+
+:root {
+    --font-heading: 'Butcherman', cursive;
+    --font-subheading: 'Ewert', cursive;
+    --font-body: 'Sigmar One', sans-serif;
+}

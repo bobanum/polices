@@ -1,0 +1,13 @@
+/* Horror and Mysterious:
+Font 1 (Heading): Creepster
+Font 2 (Subheading): Nosifer
+Font 3 (Body): Alegreya
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&family=Alegreya&display=swap');
+
+:root {
+    --font-heading: 'Creepster', sans-serif;
+    --font-subheading: 'Nosifer', sans-serif;
+    --font-body: 'Alegreya', sans-serif;
+}

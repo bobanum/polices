@@ -1,0 +1,13 @@
+/* Modern and Minimalist:
+Font 1 (Heading): Raleway
+Font 2 (Subheading): Montserrat
+Font 3 (Body): Open Sans
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Montserrat:wght@500&family=Open+Sans&display=swap');
+
+:root {
+    --font-heading: 'Raleway', sans-serif;
+    --font-subheading: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}

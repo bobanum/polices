@@ -1,0 +1,13 @@
+/* Handwritten Notes:
+Font 1 (Heading): Kalam
+Font 2 (Subheading): Patrick Hand
+Font 3 (Body): Open Sans
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Patrick+Hand&family=Open+Sans&display=swap');
+
+:root {
+    --font-heading: 'Kalam', sans-serif;
+    --font-subheading: 'Patrick Hand', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}

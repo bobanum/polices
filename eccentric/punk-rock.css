@@ -1,0 +1,13 @@
+/* Punk Rock:
+Font 1 (Heading): Black Ops One
+Font 2 (Subheading): Rock Salt
+Font 3 (Body): Anton
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Rock+Salt&family=Anton&display=swap');
+
+:root {
+    --font-heading: 'Black Ops One', cursive;
+    --font-subheading: 'Rock Salt', cursive;
+    --font-body: 'Anton', sans-serif;
+}

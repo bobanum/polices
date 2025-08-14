@@ -1,0 +1,13 @@
+/* Comic Explosion:
+Font 1 (Heading): Bangers
+Font 2 (Subheading): Freckle Face
+Font 3 (Body): Acme
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Freckle+Face&family=Acme&display=swap');
+
+:root {
+    --font-heading: 'Bangers', cursive;
+    --font-subheading: 'Freckle Face', cursive;
+    --font-body: 'Acme', sans-serif;
+}

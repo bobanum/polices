@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Liste des polices</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="module">
+		import Police from './src/Police.js';
+		import styles from './nouveau/styles.js';
+		Police.main(styles);
+	</script>
+</head>
+
+<body>
+	<div id="interface">
+		<header>
+			<h1>Les polices</h1>
+			<h2>Ces palettes de polices <br>ont été créées par ChatGPT</h2>
+			<div><span>Crée les propriétés CSS suivantes :</span>
+				<code>--font-body</code>
+				<code>--font-heading</code>
+				<code>--font-subheading</code>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Original</a>
+				</li>
+				<li>
+					<a href="nouveau.html" class="courant">Nouveau</a>
+				</li>
+				<li>
+					<a href="eccentric.html">Eccentrique</a>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<div class="card">
+				<h1>Exploration des fonds marins</h1>
+				<h2>À la découverte des merveilles cachées sous l'océan</h2>
+				<p>La plongée sous-marine est bien plus qu'un simple loisir ; c'est une aventure qui vous emmène dans un royaume d'une beauté extraordinaire. Les récifs de corail multicolores, les poissons exotiques aux couleurs vives, et les créatures marines fascinantes vous attendent.</p>
+				<h3>Plongez dans le monde mystérieux des abysses où la faune et la flore marines révèlent leur splendeur.</h3>
+				<p>Rejoignez-nous pour une exploration inoubliable des profondeurs de la mer, où chaque plongée révèle de nouvelles surprises. C'est une opportunité de découvrir la diversité de la vie marine et de sensibiliser à l'importance de la préservation de nos océans pour les générations futures.</p>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+/* Wild West Wanted:
+Font 1 (Heading): Rye
+Font 2 (Subheading): Smokum
+Font 3 (Body): Roboto Slab
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Smokum&family=Roboto+Slab&display=swap');
+
+:root {
+    --font-heading: 'Rye', cursive;
+    --font-subheading: 'Smokum', cursive;
+    --font-body: 'Roboto Slab', sans-serif;
+}
