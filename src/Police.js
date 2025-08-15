@@ -16,9 +16,13 @@ export default class Police {
 			container.appendChild(fieldset);
 		}
 	}
+	static url(...args) {
+		console.log(location);
+		
+		return location.origin + '/' + args.filter(arg => arg).join("/") + ".css";
+	}
 	static at_import(...args) {
-		args = args.filter(arg => arg);
-		return `@import url('${args.join("/")}.css');`;
+		return `@import url('${this.url(...args)}');`;
 	}
 	static html_fieldset(style) {
 		const fieldset = document.createElement("fieldset");
@@ -27,17 +31,30 @@ export default class Police {
 			fieldset.style.setProperty(`--font-${prop}`, style[prop]);
 		});
 		const legend = fieldset.appendChild(document.createElement("legend"));
-		legend.innerHTML = style.label;
+		const label = document.createElement("span");
+		label.innerHTML = style.label;
+		legend.appendChild(label);
 		legend.appendChild(this.html_button(style));
+		legend.appendChild(this.html_link_download(style));
 		return fieldset;
 	}
 	static html_button(style) {
 		const button = document.createElement("button");
 		button.title = "Copier @import";
 		button.innerHTML = "📋&#xFE0E;";
-		const imp = this.at_import('polices', style.folder, style.id);
+		const imp = this.at_import(style.folder, style.id);
+		console.log(imp);
+
 		button.onclick = () => navigator.clipboard.writeText(imp);
 		return button;
+	}
+	static html_link_download(style) {
+		const link = document.createElement("a");
+		link.title = "Télécharger";
+		link.innerHTML = "📥&#xFE0E;";
+		link.href = this.url(style.folder, style.id);
+		link.download = style.id + ".css";
+		return link;
 	}
 }
 
