@@ -17,8 +17,8 @@ export default class Police {
 		}
 	}
 	static url(...args) {
-		console.log(location);
-		
+		let dossier = location.pathname.split("/").slice(0, -1).join("/");
+		args.unshift(dossier);
 		return location.origin + '/' + args.filter(arg => arg).join("/") + ".css";
 	}
 	static at_import(...args) {
@@ -43,7 +43,6 @@ export default class Police {
 		button.title = "Copier @import";
 		button.innerHTML = "📋&#xFE0E;";
 		const imp = this.at_import(style.folder, style.id);
-		console.log(imp);
 
 		button.onclick = () => navigator.clipboard.writeText(imp);
 		return button;
