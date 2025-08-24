@@ -44,7 +44,7 @@ export default class Police {
 		button.innerHTML = "📋&#xFE0E;";
 		const imp = this.at_import(style.folder, style.id);
 
-		button.onclick = () => navigator.clipboard.writeText(imp);
+		button.onclick = () => navigator.clipboard.writeText(imp+"\n");
 		return button;
 	}
 	static html_link_download(style) {
